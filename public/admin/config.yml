@@ -21,12 +21,7 @@ media_folder: /public/assets/images
 public_folder: /assets/images
 editor:
   preview: false
-i18n:
-  structure: multiple_folders
-  locales:
-    - en
-    - de
-  default_locale: en
+folder: content/de
 collections:
   - name: config
     label: Config
@@ -64,8 +59,6 @@ collections:
             # hint: Default locale
             widget: select
             options:
-              - value: en
-                label: English
               - value: de
                 label: German
 
