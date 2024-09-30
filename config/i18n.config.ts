@@ -1,11 +1,14 @@
-export const locales = ["de"];
-export type Locale = (typeof locales)[number];
 import type { LocaleObject } from "vue-i18n-routing";
 
 import type de from "@/messages/de/common.json";
 import type projectDe from "@/messages/de/project.json";
 
 import { project } from "../config/project.config";
+
+export const locales = ["de"];
+
+export type Locale = (typeof locales)[number];
+
 export const defaultLocale: Locale = project.defaultLocale;
 
 export const localesMap = {
