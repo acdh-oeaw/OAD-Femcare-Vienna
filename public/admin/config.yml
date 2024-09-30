@@ -21,7 +21,6 @@ media_folder: /public/assets/images
 public_folder: /assets/images
 editor:
   preview: false
-folder: content/de
 collections:
   - name: config
     label: Config
@@ -215,7 +214,7 @@ collections:
     label_singular: System page
     # description: System pages
     i18n: true
-    folder: content/system-pages
+    folder: content/system-pages/de
     create: false
     delete: false
     fields:
@@ -294,7 +293,7 @@ collections:
     label_singular: Page
     # description: Pages
     i18n: true
-    folder: content/pages
+    folder: content/pages/de
     create: true
     delete: true
     # nested:
@@ -331,7 +330,7 @@ collections:
     label_singular: Team member
     # description: Team
     i18n: true
-    folder: content/team
+    folder: content/team/de
     media_folder: /public/assets/images/team
     public_folder: /assets/images/team
     identifier_field: lastName
