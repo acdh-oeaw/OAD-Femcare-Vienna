@@ -1,14 +1,14 @@
 import { createI18n } from "vue-i18n";
 
-import en from "@/messages/en/common.json";
-import projectEn from "@/messages/en/project.json";
+import de from "@/messages/de/common.json";
+import projectDe from "@/messages/de/project.json";
 
 const locale = "en";
 
 const { t } = createI18n({
 	legacy: false,
 	locale,
-	messages: { en: { ...en, ...projectEn } },
+	messages: { de: { ...de, ...projectDe } },
 }).global;
 
 const manifest = {

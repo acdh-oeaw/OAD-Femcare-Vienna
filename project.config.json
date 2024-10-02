@@ -1,38 +1,35 @@
 {
-  "colors": {
-    "brand": "#6b5bcf",
-    "geojsonPoints": "#3A2A59",
-    "geojsonAreaCenterPoints": "#B2814E"
-  },
-  "network": {
-    "excludeSystemClasses": [
-      "type",
-      "reference_system",
-      "source_translation",
-      "source",
-      "bibliography",
-      "external_reference",
-      "administrative_unit",
-      "edition",
-      "type_tools",
-      "file"
-    ]
-  },
-  "map": {
-    "startPage": false,
-    "mapDisplayedSystemClasses": [
-      "place",
-      "feature"
-    ]
-  },
-  "fullscreen": true,
-  "defaultLocale": "de",
-  "imprint": "acdh-ch",
-  "logos": {
-    "light": "/assets/images/logo.jpg",
-    "dark": "/assets/images/logo.jpg",
-    "withTextLight": "/assets/images/logo.jpg",
-    "withTextDark": "/assets/images/logo.jpg"
-  },
-  "twitter": "@openatlas_eu"
+	"colors": {
+		"brand": "#6b5bcf",
+		"geojsonPoints": "#3A2A59",
+		"geojsonAreaCenterPoints": "#B2814E"
+	},
+	"network": {
+		"excludeSystemClasses": [
+			"type",
+			"reference_system",
+			"source_translation",
+			"source",
+			"bibliography",
+			"external_reference",
+			"administrative_unit",
+			"edition",
+			"type_tools",
+			"file"
+		]
+	},
+	"map": {
+		"startPage": false,
+		"mapDisplayedSystemClasses": ["place", "feature"]
+	},
+	"fullscreen": true,
+	"defaultLocale": "de",
+	"imprint": "acdh-ch",
+	"logos": {
+		"light": "/assets/images/logo.jpg",
+		"dark": "/assets/images/logo.jpg",
+		"withTextLight": "/assets/images/logo.jpg",
+		"withTextDark": "/assets/images/logo.jpg"
+	},
+	"twitter": "@openatlas_eu"
 }
