@@ -3,7 +3,7 @@ import { createI18n } from "vue-i18n";
 import de from "@/messages/de/common.json";
 import projectDe from "@/messages/de/project.json";
 
-const locale = "en";
+const locale = "de";
 
 const { t } = createI18n({
 	legacy: false,
